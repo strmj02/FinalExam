@@ -21,6 +21,7 @@
         UITabBarItem *tbi = [self tabBarItem];
         UIImage *i = [UIImage imageNamed:@"second.png"];
         [tbi setImage:i];
+        [tbi setTitle:@"Comments"];
         // Custom initialization
     }
     return self;

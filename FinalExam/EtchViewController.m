@@ -26,6 +26,7 @@
         UITabBarItem *tbi = [self tabBarItem];
         UIImage *i = [UIImage imageNamed:@"etchtabbaritem2.png"];
         [tbi setImage:i];
+        [tbi setTitle:@"Etch-a-Sketch"];
         // Custom initialization
     }
     return self;

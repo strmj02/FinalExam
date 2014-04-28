@@ -27,6 +27,7 @@
         UITabBarItem *tbi = [self tabBarItem];
         UIImage *i = [UIImage imageNamed:@"cardtabbaritem2.png"];
         [tbi setImage:i];
+        [tbi setTitle:@"Card Game"];
         // Custom initialization
     }
     return self;

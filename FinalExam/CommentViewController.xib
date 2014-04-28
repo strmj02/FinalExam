@@ -41,7 +41,6 @@
 						<string key="NSFrame">{{30, 20}, {265, 166}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<object class="NSColor" key="IBUIBackgroundColor" id="122053928">
 							<int key="NSColorSpace">1</int>
@@ -51,7 +50,7 @@
 						<bool key="IBUIMultipleTouchEnabled">YES</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<bool key="IBUIEditable">NO</bool>
-						<string key="IBUIText">What I liked:  the projects were fun and very interesting.  it was neat to have the games at the end and we covered a lot of topics</string>
+						<string key="IBUIText">What I liked:  the projects were fun and very interesting.  it was neat to have the games at the end and we covered a lot of topics. You were always willing to help people and stay later to try and figure out bugs</string>
 						<object class="IBUITextInputTraits" key="IBUITextInputTraits">
 							<int key="IBUIAutocapitalizationType">2</int>
 							<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>

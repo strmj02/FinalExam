@@ -29,6 +29,7 @@
         UITabBarItem *tbi = [self tabBarItem];
         UIImage *i = [UIImage imageNamed:@"spirotabbaritem2.png"];
         [tbi setImage:i];
+        [tbi setTitle:@"Spirograph"];
     }
     return self;
 }
