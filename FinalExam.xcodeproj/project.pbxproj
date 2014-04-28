@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C15A038190C40AC00D988C6 /* morback.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C15A037190C40AC00D988C6 /* morback.png */; };
+		2C15A048190C429C00D988C6 /* Test1bViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C15A047190C429C00D988C6 /* Test1bViewController.m */; };
+		2C15A04A190C42A600D988C6 /* Test1bViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C15A049190C42A600D988C6 /* Test1bViewController.xib */; };
+		2C15A055190C42B100D988C6 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C15A04C190C42B100D988C6 /* Card.m */; };
+		2C15A056190C42B100D988C6 /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C15A04E190C42B100D988C6 /* PlayingCard.m */; };
+		2C15A057190C42B100D988C6 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C15A050190C42B100D988C6 /* Deck.m */; };
+		2C15A058190C42B100D988C6 /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C15A052190C42B100D988C6 /* PlayingCardDeck.m */; };
+		2C15A059190C42B100D988C6 /* CardMatchingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C15A054190C42B100D988C6 /* CardMatchingGame.m */; };
+		2C3CBA6C190BF5810003F34E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C3CBA6B190BF5810003F34E /* UIKit.framework */; };
+		2C3CBA6E190BF5810003F34E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C3CBA6D190BF5810003F34E /* Foundation.framework */; };
+		2C3CBA70190BF5810003F34E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C3CBA6F190BF5810003F34E /* CoreGraphics.framework */; };
+		2C3CBA76190BF5810003F34E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2C3CBA74190BF5810003F34E /* InfoPlist.strings */; };
+		2C3CBA78190BF5810003F34E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3CBA77190BF5810003F34E /* main.m */; };
+		2C3CBA7C190BF5810003F34E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3CBA7B190BF5810003F34E /* AppDelegate.m */; };
+		2C3CBA7F190BF5810003F34E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C3CBA7D190BF5810003F34E /* MainStoryboard.storyboard */; };
+		2C3CBA82190BF5810003F34E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3CBA81190BF5810003F34E /* ViewController.m */; };
+		2C3CBA93190BF92C0003F34E /* SpirographViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3CBA91190BF92C0003F34E /* SpirographViewController.m */; };
+		2C3CBA94190BF92C0003F34E /* SpirographViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C3CBA92190BF92C0003F34E /* SpirographViewController.xib */; };
+		2C3CBA97190BFC200003F34E /* SpiroView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3CBA96190BFC200003F34E /* SpiroView.m */; };
+		2C3CBA9A190BFC310003F34E /* HarmoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3CBA99190BFC310003F34E /* HarmoView.m */; };
+		2C3CBA9E190BFF260003F34E /* CommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3CBA9C190BFF260003F34E /* CommentViewController.m */; };
+		2C3CBA9F190BFF260003F34E /* CommentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C3CBA9D190BFF260003F34E /* CommentViewController.xib */; };
+		2C3CBAA3190C07580003F34E /* EtchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3CBAA1190C07580003F34E /* EtchViewController.m */; };
+		2C3CBAA4190C07580003F34E /* EtchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C3CBAA2190C07580003F34E /* EtchViewController.xib */; };
+		2C3CBAA6190C07D90003F34E /* redframe.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C3CBAA5190C07D90003F34E /* redframe.png */; };
+		2C3CBAAC190C16250003F34E /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3CBAAB190C16240003F34E /* DrawView.m */; };
+		2C538722190DD42100A9A40D /* etchtabbaritem2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C538721190DD42100A9A40D /* etchtabbaritem2.png */; };
+		2C538724190DD4E900A9A40D /* spirotabbaritem2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C538723190DD4E900A9A40D /* spirotabbaritem2.png */; };
+		2C538726190DD4EE00A9A40D /* cardtabbaritem2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C538725190DD4ED00A9A40D /* cardtabbaritem2.png */; };
+		2C538728190DD50C00A9A40D /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C538727190DD50C00A9A40D /* second.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2C15A037190C40AC00D988C6 /* morback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = morback.png; sourceTree = "<group>"; };
+		2C15A046190C429C00D988C6 /* Test1bViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test1bViewController.h; sourceTree = "<group>"; };
+		2C15A047190C429C00D988C6 /* Test1bViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test1bViewController.m; sourceTree = "<group>"; };
+		2C15A049190C42A600D988C6 /* Test1bViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Test1bViewController.xib; sourceTree = "<group>"; };
+		2C15A04B190C42B100D988C6 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		2C15A04C190C42B100D988C6 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		2C15A04D190C42B100D988C6 /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
+		2C15A04E190C42B100D988C6 /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
+		2C15A04F190C42B100D988C6 /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		2C15A050190C42B100D988C6 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
+		2C15A051190C42B100D988C6 /* PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardDeck.h; sourceTree = "<group>"; };
+		2C15A052190C42B100D988C6 /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardDeck.m; sourceTree = "<group>"; };
+		2C15A053190C42B100D988C6 /* CardMatchingGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardMatchingGame.h; sourceTree = "<group>"; };
+		2C15A054190C42B100D988C6 /* CardMatchingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardMatchingGame.m; sourceTree = "<group>"; };
+		2C3CBA67190BF5810003F34E /* FinalExam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalExam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C3CBA6B190BF5810003F34E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2C3CBA6D190BF5810003F34E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2C3CBA6F190BF5810003F34E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2C3CBA73190BF5810003F34E /* FinalExam-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FinalExam-Info.plist"; sourceTree = "<group>"; };
+		2C3CBA75190BF5810003F34E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2C3CBA77190BF5810003F34E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2C3CBA79190BF5810003F34E /* FinalExam-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FinalExam-Prefix.pch"; sourceTree = "<group>"; };
+		2C3CBA7A190BF5810003F34E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2C3CBA7B190BF5810003F34E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2C3CBA7E190BF5810003F34E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		2C3CBA80190BF5810003F34E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2C3CBA81190BF5810003F34E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2C3CBA90190BF92C0003F34E /* SpirographViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SpirographViewController.h; path = ../SpirographViewController.h; sourceTree = "<group>"; };
+		2C3CBA91190BF92C0003F34E /* SpirographViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SpirographViewController.m; path = ../SpirographViewController.m; sourceTree = "<group>"; };
+		2C3CBA92190BF92C0003F34E /* SpirographViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SpirographViewController.xib; path = ../SpirographViewController.xib; sourceTree = "<group>"; };
+		2C3CBA95190BFC200003F34E /* SpiroView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpiroView.h; sourceTree = "<group>"; };
+		2C3CBA96190BFC200003F34E /* SpiroView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpiroView.m; sourceTree = "<group>"; };
+		2C3CBA98190BFC310003F34E /* HarmoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HarmoView.h; sourceTree = "<group>"; };
+		2C3CBA99190BFC310003F34E /* HarmoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HarmoView.m; sourceTree = "<group>"; };
+		2C3CBA9B190BFF260003F34E /* CommentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentViewController.h; sourceTree = "<group>"; };
+		2C3CBA9C190BFF260003F34E /* CommentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentViewController.m; sourceTree = "<group>"; };
+		2C3CBA9D190BFF260003F34E /* CommentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommentViewController.xib; sourceTree = "<group>"; };
+		2C3CBAA0190C07580003F34E /* EtchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EtchViewController.h; sourceTree = "<group>"; };
+		2C3CBAA1190C07580003F34E /* EtchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EtchViewController.m; sourceTree = "<group>"; };
+		2C3CBAA2190C07580003F34E /* EtchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EtchViewController.xib; sourceTree = "<group>"; };
+		2C3CBAA5190C07D90003F34E /* redframe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redframe.png; sourceTree = "<group>"; };
+		2C3CBAAA190C16240003F34E /* DrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
+		2C3CBAAB190C16240003F34E /* DrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
+		2C538721190DD42100A9A40D /* etchtabbaritem2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = etchtabbaritem2.png; sourceTree = "<group>"; };
+		2C538723190DD4E900A9A40D /* spirotabbaritem2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spirotabbaritem2.png; sourceTree = "<group>"; };
+		2C538725190DD4ED00A9A40D /* cardtabbaritem2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cardtabbaritem2.png; sourceTree = "<group>"; };
+		2C538727190DD50C00A9A40D /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C3CBA64190BF5810003F34E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C3CBA6C190BF5810003F34E /* UIKit.framework in Frameworks */,
+				2C3CBA6E190BF5810003F34E /* Foundation.framework in Frameworks */,
+				2C3CBA70190BF5810003F34E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C3CBA5C190BF5810003F34E = {
+			isa = PBXGroup;
+			children = (
+				2C3CBA71190BF5810003F34E /* FinalExam */,
+				2C3CBA6A190BF5810003F34E /* Frameworks */,
+				2C3CBA68190BF5810003F34E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C3CBA68190BF5810003F34E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C3CBA67190BF5810003F34E /* FinalExam.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C3CBA6A190BF5810003F34E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C3CBA6B190BF5810003F34E /* UIKit.framework */,
+				2C3CBA6D190BF5810003F34E /* Foundation.framework */,
+				2C3CBA6F190BF5810003F34E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2C3CBA71190BF5810003F34E /* FinalExam */ = {
+			isa = PBXGroup;
+			children = (
+				2C3CBA7A190BF5810003F34E /* AppDelegate.h */,
+				2C3CBA7B190BF5810003F34E /* AppDelegate.m */,
+				2C3CBA9B190BFF260003F34E /* CommentViewController.h */,
+				2C3CBA9C190BFF260003F34E /* CommentViewController.m */,
+				2C3CBA9D190BFF260003F34E /* CommentViewController.xib */,
+				2C3CBA90190BF92C0003F34E /* SpirographViewController.h */,
+				2C3CBA91190BF92C0003F34E /* SpirographViewController.m */,
+				2C3CBA92190BF92C0003F34E /* SpirographViewController.xib */,
+				2C3CBA95190BFC200003F34E /* SpiroView.h */,
+				2C3CBA96190BFC200003F34E /* SpiroView.m */,
+				2C3CBA98190BFC310003F34E /* HarmoView.h */,
+				2C3CBA99190BFC310003F34E /* HarmoView.m */,
+				2C3CBAA0190C07580003F34E /* EtchViewController.h */,
+				2C3CBAA1190C07580003F34E /* EtchViewController.m */,
+				2C3CBAA2190C07580003F34E /* EtchViewController.xib */,
+				2C3CBAAA190C16240003F34E /* DrawView.h */,
+				2C3CBAAB190C16240003F34E /* DrawView.m */,
+				2C3CBA7D190BF5810003F34E /* MainStoryboard.storyboard */,
+				2C3CBA80190BF5810003F34E /* ViewController.h */,
+				2C3CBA81190BF5810003F34E /* ViewController.m */,
+				2C15A04B190C42B100D988C6 /* Card.h */,
+				2C15A04C190C42B100D988C6 /* Card.m */,
+				2C15A04D190C42B100D988C6 /* PlayingCard.h */,
+				2C15A04E190C42B100D988C6 /* PlayingCard.m */,
+				2C15A04F190C42B100D988C6 /* Deck.h */,
+				2C15A050190C42B100D988C6 /* Deck.m */,
+				2C15A051190C42B100D988C6 /* PlayingCardDeck.h */,
+				2C15A052190C42B100D988C6 /* PlayingCardDeck.m */,
+				2C15A053190C42B100D988C6 /* CardMatchingGame.h */,
+				2C15A054190C42B100D988C6 /* CardMatchingGame.m */,
+				2C15A046190C429C00D988C6 /* Test1bViewController.h */,
+				2C15A047190C429C00D988C6 /* Test1bViewController.m */,
+				2C15A049190C42A600D988C6 /* Test1bViewController.xib */,
+				2C3CBA72190BF5810003F34E /* Supporting Files */,
+			);
+			path = FinalExam;
+			sourceTree = "<group>";
+		};
+		2C3CBA72190BF5810003F34E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C538725190DD4ED00A9A40D /* cardtabbaritem2.png */,
+				2C538723190DD4E900A9A40D /* spirotabbaritem2.png */,
+				2C538727190DD50C00A9A40D /* second.png */,
+				2C538721190DD42100A9A40D /* etchtabbaritem2.png */,
+				2C15A037190C40AC00D988C6 /* morback.png */,
+				2C3CBAA5190C07D90003F34E /* redframe.png */,
+				2C3CBA73190BF5810003F34E /* FinalExam-Info.plist */,
+				2C3CBA74190BF5810003F34E /* InfoPlist.strings */,
+				2C3CBA77190BF5810003F34E /* main.m */,
+				2C3CBA79190BF5810003F34E /* FinalExam-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C3CBA66190BF5810003F34E /* FinalExam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C3CBA85190BF5810003F34E /* Build configuration list for PBXNativeTarget "FinalExam" */;
+			buildPhases = (
+				2C3CBA63190BF5810003F34E /* Sources */,
+				2C3CBA64190BF5810003F34E /* Frameworks */,
+				2C3CBA65190BF5810003F34E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FinalExam;
+			productName = FinalExam;
+			productReference = 2C3CBA67190BF5810003F34E /* FinalExam.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C3CBA5E190BF5810003F34E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Rachel Johnson";
+			};
+			buildConfigurationList = 2C3CBA61190BF5810003F34E /* Build configuration list for PBXProject "FinalExam" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2C3CBA5C190BF5810003F34E;
+			productRefGroup = 2C3CBA68190BF5810003F34E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C3CBA66190BF5810003F34E /* FinalExam */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C3CBA65190BF5810003F34E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C3CBA76190BF5810003F34E /* InfoPlist.strings in Resources */,
+				2C3CBA7F190BF5810003F34E /* MainStoryboard.storyboard in Resources */,
+				2C3CBA94190BF92C0003F34E /* SpirographViewController.xib in Resources */,
+				2C3CBA9F190BFF260003F34E /* CommentViewController.xib in Resources */,
+				2C3CBAA4190C07580003F34E /* EtchViewController.xib in Resources */,
+				2C3CBAA6190C07D90003F34E /* redframe.png in Resources */,
+				2C15A038190C40AC00D988C6 /* morback.png in Resources */,
+				2C15A04A190C42A600D988C6 /* Test1bViewController.xib in Resources */,
+				2C538722190DD42100A9A40D /* etchtabbaritem2.png in Resources */,
+				2C538724190DD4E900A9A40D /* spirotabbaritem2.png in Resources */,
+				2C538726190DD4EE00A9A40D /* cardtabbaritem2.png in Resources */,
+				2C538728190DD50C00A9A40D /* second.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C3CBA63190BF5810003F34E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C3CBA78190BF5810003F34E /* main.m in Sources */,
+				2C3CBA7C190BF5810003F34E /* AppDelegate.m in Sources */,
+				2C3CBA82190BF5810003F34E /* ViewController.m in Sources */,
+				2C3CBA93190BF92C0003F34E /* SpirographViewController.m in Sources */,
+				2C3CBA97190BFC200003F34E /* SpiroView.m in Sources */,
+				2C3CBA9A190BFC310003F34E /* HarmoView.m in Sources */,
+				2C3CBA9E190BFF260003F34E /* CommentViewController.m in Sources */,
+				2C3CBAA3190C07580003F34E /* EtchViewController.m in Sources */,
+				2C3CBAAC190C16250003F34E /* DrawView.m in Sources */,
+				2C15A048190C429C00D988C6 /* Test1bViewController.m in Sources */,
+				2C15A055190C42B100D988C6 /* Card.m in Sources */,
+				2C15A056190C42B100D988C6 /* PlayingCard.m in Sources */,
+				2C15A057190C42B100D988C6 /* Deck.m in Sources */,
+				2C15A058190C42B100D988C6 /* PlayingCardDeck.m in Sources */,
+				2C15A059190C42B100D988C6 /* CardMatchingGame.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2C3CBA74190BF5810003F34E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C3CBA75190BF5810003F34E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2C3CBA7D190BF5810003F34E /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C3CBA7E190BF5810003F34E /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C3CBA83190BF5810003F34E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2C3CBA84190BF5810003F34E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C3CBA86190BF5810003F34E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FinalExam/FinalExam-Prefix.pch";
+				INFOPLIST_FILE = "FinalExam/FinalExam-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2C3CBA87190BF5810003F34E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FinalExam/FinalExam-Prefix.pch";
+				INFOPLIST_FILE = "FinalExam/FinalExam-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C3CBA61190BF5810003F34E /* Build configuration list for PBXProject "FinalExam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C3CBA83190BF5810003F34E /* Debug */,
+				2C3CBA84190BF5810003F34E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C3CBA85190BF5810003F34E /* Build configuration list for PBXNativeTarget "FinalExam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C3CBA86190BF5810003F34E /* Debug */,
+				2C3CBA87190BF5810003F34E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C3CBA5E190BF5810003F34E /* Project object */;
+}
